@@ -78,3 +78,38 @@ This repository includes the following artifacts from CS 300 Data Structures and
 * **Project One:** Runtime and memory analysis of the vector, hash table, and binary search tree data structures.
 * **Project Two:** Working C++ program that loads course information and prints the Computer Science courses in alphanumeric order.
 
+
+
+# CS 305 Portfolio Reflection
+
+## Artemis Financial and Software Requirements
+
+Artemis Financial is a financial consulting company that develops individualized financial plans for its customers. The company wanted to improve the security of its software application and protect sensitive client information. My task was to identify security vulnerabilities in the application and apply secure coding practices to reduce potential risks.
+
+## Identifying Software Security Vulnerabilities
+
+I did well identifying vulnerabilities by reviewing the application, analyzing its dependencies, and using security testing tools. Secure coding is important because software vulnerabilities can expose sensitive information and create opportunities for unauthorized access or attacks. Strong software security helps a company protect its customers, maintain trust, reduce risk, and protect the overall integrity of its systems.
+
+## Challenges and Helpful Parts of the Vulnerability Assessment
+
+One of the more challenging parts of the vulnerability assessment was reviewing dependency vulnerabilities and determining which findings required attention. Using the OWASP Dependency-Check was helpful because it provided information about known vulnerabilities within the application's dependencies. This helped me better understand how automated security tools can support a manual review of an application.
+
+## Increasing Layers of Security
+
+I increased the application's security by using secure communication through HTTPS, implementing encryption and certificate-related security measures, and using SHA-256 hashing to verify data integrity. In the future, I would use tools such as OWASP Dependency-Check, vulnerability databases, manual code review, and secure coding standards to identify vulnerabilities and determine appropriate mitigation techniques.
+
+## Verifying Functionality and Security
+
+I tested the application after making security changes to make sure it continued to function correctly. I also performed another dependency scan after refactoring the code to determine whether any new vulnerabilities had been introduced. Testing both functionality and security after making changes helped confirm that the improvements did not negatively affect the application.
+
+## Resources, Tools, and Coding Practices
+
+Some of the most useful resources and practices from this course were OWASP Dependency-Check, Maven, SHA-256 hashing, HTTPS, certificates, dependency analysis, error checking, and secure coding practices. I can use these tools and techniques in future assignments to identify security risks earlier in the software development process and develop more secure applications.
+
+## What I Can Show Future Employers
+
+I can show future employers my Artemis Financial secure software report as an example of my ability to analyze an application for vulnerabilities and apply security improvements. The project demonstrates my experience with vulnerability assessment, secure coding, dependency checking, encryption, hashing, certificates, and software testing. It also shows that I understand the importance of considering security throughout the software development life cycle.
+
+## CS 305 Portfolio Artifact
+
+* **Project Two:** Artemis Financial Practices for Secure Software Report demonstrating vulnerability assessment, secure coding practices, dependency analysis, encryption, hashing, HTTPS, and security testing.
