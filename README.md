@@ -48,3 +48,33 @@ I focused on understanding the client's goal of making the game available across
 ## My Software Design Approach
 
 I approached software design by first analyzing the client's business requirements before selecting technologies and architectural solutions. I compared different operating platforms, evaluated scalability, security, maintainability, and performance, and recommended the solution that best met the client's needs. In future projects, I will continue to use requirements analysis, UML modeling, and structured design documents before implementation.
+
+# CS 300 Portfolio Reflection
+
+## What was the problem you were solving in the projects for this course?
+
+The main problem I worked on in CS 300 was developing a program that could organize and retrieve course information for academic advisors. The program needed to load course data, organize the courses, print a list of all Computer Science courses in alphanumeric order, and display information about an individual course, including its prerequisites. Throughout the projects, I explored different data structures to determine which one would be the most appropriate for managing the course information.
+
+## How did you approach the problem? Consider why data structures are important to understand.
+
+I approached the problem by comparing different data structures, including vectors, hash tables, and binary search trees. I analyzed how each structure stores, searches, and sorts information, as well as its run-time and memory requirements. This helped me understand that choosing the correct data structure is important because it can affect the efficiency and performance of a program. For this project, I determined that a binary search tree was appropriate because an in-order traversal can produce the course list in alphanumeric order.
+
+## How did you overcome any roadblocks you encountered while going through the activities or project?
+
+One of the challenges I encountered was making sure the course information was loaded, stored, and displayed correctly. I worked through problems by reviewing my pseudocode, testing different parts of the program, checking the program output, and correcting errors as I found them. Breaking the program into smaller sections made troubleshooting easier because I could focus on one function or problem at a time.
+
+## How has your work on this project expanded your approach to designing software and developing programs?
+
+This project expanded my approach to software design by teaching me to think about the structure of a program before immediately beginning to code. I learned that planning algorithms and selecting an appropriate data structure can make the development process more organized and efficient. I now have a better understanding of how decisions made during the design stage can affect the performance and usability of the finished program.
+
+## How has your work on this project evolved the way you write programs that are maintainable, readable, and adaptable?
+
+My work in this course has helped me understand the importance of writing code that can be understood and modified later. I have improved my use of meaningful variable and function names, comments, organized functions, and consistent formatting. Dividing the program into separate functions also makes the code easier to test and maintain. Going forward, I will continue focusing on creating programs that not only work correctly but are also organized, readable, and adaptable to future changes.
+
+## CS 300 Portfolio Artifacts
+
+This repository includes the following artifacts from CS 300 Data Structures and Algorithms:
+
+* **Project One:** Runtime and memory analysis of the vector, hash table, and binary search tree data structures.
+* **Project Two:** Working C++ program that loads course information and prints the Computer Science courses in alphanumeric order.
+
